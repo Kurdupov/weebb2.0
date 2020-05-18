@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#id01{
+    color: rgb(179, 60, 173);
+}
+
+.zagolovok_col{
+    color: peru;
+}
+.color1{
+    color: peru;
+    font-size: 130%;
+}
+.leftimg{
+    float:left; 
+    margin: 7px 7px 7px 0; 
+}
+.color2{
+    color:peru
+}
+#id1{
+    color:rgb(99, 170, 105);
+    font-size: 150%
+}
+#id2{
+    color: rgb(179, 255, 0);
+    font-size: 150%
+}
+#id3{
+    color: rgb(220, 223, 84);
+    font-size: 130%
+}
+#id4{
+    color: peru;
+    font-size: 150%
+}
+#id5{
+    font-size:130%
+}
+BODY {
+    color: rgb(179, 255, 0);
+    background:url(../img/2.jpg)
+    
+   } 
+#id6{
+    color: rgb(220, 223, 84);
+    font-size:130%
+}
+@media (max-width:375px){
+    #id01,#id1,#id2,#id3,#id4,.color1,.color2,BODY{
+        color: greenyellow;
+}
+
